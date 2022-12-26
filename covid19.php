@@ -37,23 +37,3 @@ foreach($csv as $line){
 }
 
 fclose($file);
-
-
-// // Select the elements you want to scrape
-// $address = $html->find('.results__name', 0)->plaintext;
-
-// var_dump($address);
-// die();
-
-
-
-// $addrress_value = explode(' ', $address);
-
-
-// // Open the CSV file in write mode
-// $csv = fopen('address.csv', 'w');
-
-// fputcsv($csv, $addrress_value);
-
-// fclose($csv);
-
